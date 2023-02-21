@@ -1,0 +1,71 @@
+@import url('fonts.css');
+@import url('flex.css');
+@import url('nav.css');
+@import url('margins.css');
+@import url('paddings.css');
+@import url('widths.css');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #2C2E43;
+}
+
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+#headline {
+  font-size: 8em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.of-auto {
+  overflow: auto;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-light {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}

@@ -4,31 +4,13 @@
   align-content: space-around;
 }
 
-.img-responsive {
-  max-width: 100%;
-  height: auto;
-}
-
-.w-50 {
-  max-width: 50%;
-}
-
-.w-75 {
-  max-width: 75%;
-}
-
-.w-100 {
-  max-width: 100%;
+.gap-1 {
+    gap: 1em;
 }
 
 /* mobile */
 [class*="flex-"] {
   width: 100%;
-}
-
-.container {
-  max-width: 100%;
-  margin: 0 auto;
 }
 
 .flex-sm-1 {

@@ -26,7 +26,7 @@ body, div {
 }
 
 #headline {
-  font-size: 3.6em;
+  font-size: 2.8rem;
 }
 
 #imgDev {
@@ -85,6 +85,15 @@ a {
   align-items: center;
 }
 
-#js-container {
-  background-color: #f7df1e;
+.align-self-end {
+  align-self: flex-end;
 }
+
+.js-container {
+  background-color: #f7df1e !important;
+}
+
+.vw-100 {
+  width: 100vw !important;
+}
+

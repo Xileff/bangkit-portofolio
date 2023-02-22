@@ -1,9 +1,112 @@
-.card-img-container {
+.card .skills-img-container {
   background-color: white;
   border-radius: 50%;
 }
 
-.card-img-container>img {
+.card .skills-img-container > img {
   width: 250px;
   height: auto;
+}
+
+#projects .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem;
+  background-color: #ECF2FF;
+  height: 100%;
+}
+
+#projects .card .card-img-container {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  overflow: hidden;
+}
+
+#projects .card .card-img-container > img {
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+#projects .card:hover .card-img-container > img {
+  scale: 1.08;
+}
+
+#projects .card .card-img-container {
+  height: 200px;
+}
+
+#projects .card .card-img-container > img {
+  width: 100%;
+  height: 200px;
+}
+
+.project-tech .skills-img-container {
+  width: 30px;
+  height: auto;
+}
+
+.project-tech>.skills-img-container > img {
+  width: 30px;
+  height: auto;
+}
+
+#projects .card {
+  width: 260px;
+}
+
+@media screen and (min-width: 600px) {
+  #projects .card {
+    width: 600px;
+  }
+
+  #projects .card .card-img-container {
+    height: 300px;
+  }
+
+  #projects .card .card-img-container > img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .project-tech .skills-img-container {
+    width: 40px;
+    height: auto;
+  }
+
+  .project-tech>.skills-img-container > img {
+    width: 40px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #projects .card {
+    width: 660px;
+  }
+
+  #projects .card .card-img-container {
+    height: 400px;
+  }
+
+  #projects .card .card-img-container > img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .project-tech .skills-img-container {
+    width: 50px;
+    height: auto;
+  }
+
+  .project-tech>.skills-img-container > img {
+    width: 50px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #projects .card {
+    width: 100%;
+  }
 }

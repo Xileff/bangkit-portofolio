@@ -13,65 +13,259 @@
     <nav>
     </nav>
   </header>
-  <main class="container flexbox mt-5 pt-5 px-5">
-    <div id="content" class="flex-md-8 flexbox">
-      <article class="flexbox align-items-center p-1">
+  <main class="container flexbox mt-5 pt-5 px-5 vw-100 justify-content-center">
+    <div id="content" class="flex-sm-6 flex-md-6 flex-lg-8 flexbox">
+      <article class="flexbox align-items-center p-1 w-100">
         <h1 id="headline" class="ff-code text-light text-center flex-sm-12 mb-3">Developer.</h1>
           <p class="ff-ubuntu text-light">I am an Information Technology student with a strong passion for technology and a keen eye for detail. I am known for my punctuality and ability to carry out my work effectively. Currently, I am interested in learning Back-End development with NodeJs and Golang. I'm also interested in learning Front-End development with React.js and mobile development with Flutter.</p>
       </article>
-      <section class="flexbox w-100 gap-1 justify-content-center">
+      <h2 class="ff-code text-light text-center w-100">Skillset</h2>
+      <section id="skills" class="flexbox w-100 gap-1 justify-content-center mb-5">
         <div class="card flex-sm-4 flex-md-2">
-          <div class="card-img-container p-1">
+          <div class="skills-img-container p-1">
             <img src="./assets/images/nodejs.png" alt="nodejs" class="img-responsive p-1">
           </div>
           <h5 class="ff-code text-center text-light">Node.js</h5>
         </div>
         <div class="card flex-sm-4 flex-md-2">
-          <div class="card-img-container p-3">
+          <div class="skills-img-container p-3">
             <img src="./assets/images/html.png" alt="html" class="img-responsive">
           </div>
           <h5 class="ff-code text-center text-light">HTML</h5>
         </div>
         <div class="card flex-sm-4 flex-md-2">
-          <div class="card-img-container p-2">
+          <div class="skills-img-container p-2">
             <img src="./assets/images/css.png" alt="css" class="img-responsive">
           </div>
           <h5 class="ff-code text-center text-light">CSS</h5>
         </div>
         <div class="card flex-sm-4 flex-md-2">
-          <div class="card-img-container p-3">
+          <div class="skills-img-container p-3">
             <img src="./assets/images/postgre.png" alt="postgres" class="img-responsive">
           </div>
           <h5 class="ff-code text-center text-light">PostgreSQL</h5>
         </div>
         <div class="card flex-sm-4 flex-md-2">
-          <div id="js-container" class="card-img-container p-3">
+          <div class="skills-img-container p-4 js-container">
             <img src="./assets/images/js.png" alt="js" class="img-responsive">
           </div>
           <h5 class="ff-code text-center text-light">JavaScript</h5>
         </div>
         <div class="card flex-sm-4 flex-md-2">
-          <div class="card-img-container p-2">
+          <div class="skills-img-container p-2">
             <img src="./assets/images/java.png" alt="java" class="img-responsive">
           </div>
           <h5 class="ff-code text-center text-light">Java</h5>
         </div>
         <div class="card flex-sm-4 flex-md-2">
-          <div class="card-img-container p-3">
+          <div class="skills-img-container p-3">
             <img src="./assets/images/python.png" alt="python" class="img-responsive">
           </div>
           <h5 class="ff-code text-center text-light">Python</h5>
         </div>
         <div class="card flex-sm-4 flex-md-2">
-          <div class="card-img-container p-3">
+          <div class="skills-img-container p-3">
             <img src="./assets/images/php.png" alt="php" class="img-responsive">
           </div>
           <h5 class="ff-code text-center text-light">PHP</h5>
         </div>
+        <div class="card flex-sm-4 flex-md-2">
+          <div class="skills-img-container p-4">
+            <img src="./assets/images/kotlin.png" alt="kotlin" class="img-responsive">
+          </div>
+          <h5 class="ff-code text-center text-light">Kotlin</h5>
+        </div>
+        <div class="card flex-sm-4 flex-md-2">
+          <div class="skills-img-container p-3">
+            <img src="./assets/images/redis.png" alt="redis" class="img-responsive">
+          </div>
+          <h5 class="ff-code text-center text-light">Redis</h5>
+        </div>
+      </section>
+      <h2 class="ff-code text-light text-center w-100">Projects I've done</h2>
+      <section id="projects" class="w-100 mb-5">
+        <div class="flexbox justify-content-center">
+          <div class="flex-sm-6 flex-md-6 p-1">
+            <a href="#" class="card">
+              <div class="card-img-container">
+                <img src="./assets/images/antarresep.png" alt="antarresep android app" class="img-responsive">
+              </div>
+              <article class="px-3 ff-ubuntu">
+                <h3 class="mb-0">AntarResep</h3>
+                <p>An android app for ordering ingredients of any menu. As it was my first project, it's static and didn't have CRUD capability yet.</p>
+              </article>
+              <section class="project-tech flexbox gap-1 px-2 pb-1">
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/kotlin.png" alt="kotlin" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/postgre.png" alt="postgre" class="img-responsive">
+                </div>
+              </section>
+              </a>
+          </div>
+          <div class="flex-sm-6 flex-md-6 p-1">
+            <a href="#" class="card">
+              <div class="card-img-container">
+                <img src="./assets/images/doggopedia.png" alt="doggopedia static website" class="img-responsive">
+              </div>
+              <article class="px-3 ff-ubuntu">
+                <h3 class="mb-0">DoggoPedia</h3>
+                <p>My first website. It is about dogs information. It is built with HTML, CSS, and JS</p>
+              </article>
+              <section class="project-tech flexbox gap-1 px-2 pb-1">
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/html.png" alt="html" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/css.png" alt="css" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1 js-container">
+                  <img src="./assets/images/js.png" alt="js" class="img-responsive">
+                </div>
+              </section>
+              </a>
+          </div>
+          <div class="flex-sm-6 flex-md-6 p-1">
+            <a href="#" class="card">
+              <div class="card-img-container">
+                <img src="./assets/images/greenfoot.png" alt="greenfoot java game" class="img-responsive">
+              </div>
+              <article class="px-3 ff-ubuntu">
+                <h3 class="mb-0">The Kingdom of Lanorgue</h3>
+                <p>A simple 2D RPG game with top down perspective made in Greenfoot IDE using Java programming language. This was an assignment for OOP concepts.</p>
+              </article>
+              <section class="project-tech flexbox gap-1 px-2 pb-1">
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/java.png" alt="java" class="img-responsive">
+                </div>
+              </section>
+              </a>
+          </div>
+          <div class="flex-sm-6 flex-md-6 p-1">
+            <a href="#" class="card">
+              <div class="card-img-container">
+                <img src="./assets/images/hitungcuan.png" alt="hitungcuan website" class="img-responsive">
+              </div>
+              <article class="px-3 ff-ubuntu">
+                <h3 class="mb-0">HitungCuan</h3>
+                <p>A website about financial tips. Built with HTML, CSS, JS, PHP, and MySQL</p>
+              </article>
+              <section class="project-tech flexbox gap-1 px-2 pb-1">
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/html.png" alt="html" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/css.png" alt="css" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1 js-container">
+                  <img src="./assets/images/js.png" alt="js" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/php.png" alt="php" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/postgre.png" alt="postgre" class="img-responsive">
+                </div>
+              </section>
+              </a>
+          </div>
+          <div class="flex-sm-6 flex-md-6 p-1">
+            <a href="#" class="card">
+              <div class="card-img-container">
+                <img src="./assets/images/pcmasterrace.png" alt="pc master race three js" class="img-responsive">
+              </div>
+              <article class="px-3 ff-ubuntu">
+                <h3 class="mb-0">PC Master Race</h3>
+                <p>A website for showcasing PC components with their respective 3D models. Built with HTML, CSS, JS, Node.js, and Three.js</p>
+              </article>
+              <section class="project-tech flexbox gap-1 px-2 pb-1">
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/html.png" alt="html" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/css.png" alt="css" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1 js-container">
+                  <img src="./assets/images/js.png" alt="js" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/nodejs.png" alt="nodejs" class="img-responsive">
+                </div>
+              </section>
+              </a>
+          </div>
+          <div class="flex-sm-6 flex-md-6 p-1">
+            <a href="#" class="card">
+              <div class="card-img-container">
+                <img src="./assets/images/drowsiness.png" alt="drowsiness detection system" class="img-responsive">
+              </div>
+              <article class="px-3 ff-ubuntu">
+                <h3 class="mb-0">Drowsiness Detection System</h3>
+                <p>An early warning system for alerting a person if they show any sign of drowsiness. This system can be used in some serious situation, such as driving, to reduce the risk of traffic accident</p>
+              </article>
+              <section class="project-tech flexbox gap-1 px-2 pb-1">
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/python.png" alt="python" class="img-responsive">
+                </div>
+              </section>
+              </a>
+          </div>
+          <div class="flex-sm-6 flex-md-6 p-1">
+            <a href="#" class="card">
+              <div class="card-img-container">
+                <img src="./assets/images/apaantuh.png" alt="apaantuh android chatting app" class="img-responsive">
+              </div>
+              <article class="px-3 ff-ubuntu">
+                <h3 class="mb-0">Apaan Tuh</h3>
+                <p>A simple android chatting application made as my final project for Mobile Programming course.</p>
+              </article>
+              <section class="project-tech flexbox gap-1 px-2 pb-1">
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/java.png" alt="java" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/firebase.png" alt="firebase" class="img-responsive">
+                </div>
+              </section>
+              </a>
+          </div>
+          <div class="flex-sm-6 flex-md-6 p-1">
+            <a href="#" class="card">
+              <div class="card-img-container">
+                <img src="./assets/images/nodejs.png" alt="openmusic restful api" class="img-responsive">
+              </div>
+              <article class="px-3 ff-ubuntu">
+                <h3 class="mb-0">OpenMusic API v3</h3>
+                <p>This is a final project assigned by Dicoding Indonesia in the intermediate level Back-End course : "Belajar Fundamental Aplikasi Back-End". It is about developing a RESTful API for a music application.</p>
+              </article>
+              <section class="project-tech flexbox gap-1 px-2 pb-1">
+                <div class="skills-img-container p-1 js-container">
+                  <img src="./assets/images/js.png" alt="js" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/postgre.png" alt="postgre" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/nodejs.png" alt="nodejs" class="img-responsive">
+                </div>
+                <div class="skills-img-container p-1">
+                  <img src="./assets/images/redis.png" alt="redis" class="img-responsive">
+                </div>
+              </section>
+              </a>
+          </div>
+        </div>
       </section>
     </div>
-    <aside class="flex-md-4 p-5">
-      <img id="imgDev" src="./assets/images/me.jpeg" alt="dev img" class="img-responsive">
+    <aside class="flex-sm-6 flex-md-6 flex-lg-4 p-5">
+      <section class="p-3 mt-5 ff-code text-light text-center">
+        <img id="imgDev" src="./assets/images/me.jpeg" alt="dev img" class="img-responsive">
+        <h3>Name : Felix Savero</h3>
+        <h3>Age : 20 years old</h3>
+        <h3>Nationality : Indonesian</h3>
+        <h3>Occupation : IT Student</h3>
+      </section>
     </aside>
   </main>
   <footer>

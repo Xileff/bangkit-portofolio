@@ -1,0 +1,7 @@
+nav - skills, projects i've done, my dreams, contact me
+headline + aside (foto + bio singkat)
+description
+
+projects i've done
+
+contact me

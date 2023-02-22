@@ -12,7 +12,7 @@
 
 body {
   height: 100vh;
-  background-color: #2C2E43;
+  background-color: #404362;
 }
 
 body, div {
@@ -27,6 +27,7 @@ body, div {
 
 #headline {
   font-size: 2.8rem;
+  color: #24E500;
 }
 
 #imgDev {
@@ -53,6 +54,10 @@ ul {
 
 .left {
   float: left;
+}
+
+.d-inline {
+  display: inline;
 }
 
 .d-inline-block {
@@ -97,3 +102,6 @@ a {
   width: 100vw !important;
 }
 
+footer {
+  background-color: #2C2E43;
+}

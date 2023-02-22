@@ -4,6 +4,10 @@
   align-content: space-around;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .gap-1 {
     gap: 1em;
 }

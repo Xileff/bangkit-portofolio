@@ -12,6 +12,10 @@
   font-family: 'Source Code Pro', monospace;
 }
 
+.fs-medium {
+  font-size: 1.5rem;
+}
+
 .fw-thin {
   font-weight: 100;
 }

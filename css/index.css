@@ -1,3 +1,4 @@
+@import url('colors.css');
 @import url('fonts.css');
 @import url('flex.css');
 @import url('nav.css');
@@ -5,6 +6,7 @@
 @import url('paddings.css');
 @import url('widths.css');
 @import url('card.css');
+@import url('scrollbar.css');
 
 * {
   box-sizing: border-box;
@@ -12,7 +14,7 @@
 
 body {
   height: 100vh;
-  background-color: #404362;
+  background-color: var(--dark-blue);
 }
 
 body, div {
@@ -103,5 +105,19 @@ a {
 }
 
 footer {
-  background-color: #2C2E43;
+  background-color: var(--deeper-dark-blue);
+}
+
+.white-circle-container {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.white-circle-container > img {
+  width: 20px;
+  height: auto;
+}
+
+#profileTitle {
+  color: var(--red);
 }

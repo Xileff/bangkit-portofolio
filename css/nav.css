@@ -22,7 +22,7 @@ nav {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #24E500;
+  background-color: var(--neon-green);
 }
 
 .nav-menu {
@@ -42,13 +42,13 @@ nav {
 
 .nav-brand:hover + span, .nav-brand + span:hover {
   cursor: pointer;
-  color: #24E500;
+  color: var(--red);
 }
 
 .nav-item:hover {
   transform: skew(-15deg);
   transition: 500ms;
-  color: #24E500;
+  color: var(--neon-green);
 }
 
 
